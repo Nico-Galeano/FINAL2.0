@@ -18,7 +18,6 @@ body{
     background: rgb(236, 159, 235);
     display: flex;
     justify-content: end;
-    padding-right: 50px;
 }
 
 .imagen-logo-header{
@@ -36,6 +35,17 @@ body{
 
 .letra-header{
     color: #0e0e0e;
+    text-align: center;
+}
+.letra-header:hover{
+    color: #717171;
+}
+
+@media (max-width:992px){
+    .recuadro-header{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /*MAIN*/
@@ -45,6 +55,8 @@ body{
     font-size: 45px;
     color: #ff0eef;
     background-color: #5b0052;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .recuadro-contacto{
@@ -83,6 +95,16 @@ body{
     padding: 25px;
  }
 
+form{
+    width: 100%;
+}
+
+input{
+    
+    min-width: 100%;
+    max-width: 100%;
+    
+}
 .textarea {
     min-height: 100px;
     max-height: 500px;
@@ -107,6 +129,9 @@ body{
     width: 70px;
     height: 70px;
     padding: 5px;
+}
+.iconos-redes:hover{
+    opacity: 70%;
 }
 
 /*FOOTER*/
