@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "system-ui", sans-serif
+}
+body{
+    background-color:cornsilk;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*HEADER*/
+
+.recuadro-header{
+    background: rgb(236, 159, 235);
+    display: flex;
+    justify-content: end;
+}
+
+.imagen-logo-header{
+    width: 150px;
+    height: 150px;
+}
+
+.navegacion-header{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.letra-header{
+    color: #0e0e0e;
+    text-align: center;
+}
+.letra-header:hover{
+    color: #717171;
+}
+
+@media (max-width:992px){
+    .recuadro-header{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*MAIN*/
+
+.letra-main{
+    text-align: center;
+    font-size: 45px;
+    color: #ff0eef;
+    background-color: #5b0052;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.recuadro-contacto{
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    margin: 50px;
+    gap: 50px;
+}
+
+.recuadro-datos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 237, 235);
+    padding: 25px;
+}
+
+.contacto-redes-iconos{
+    width: 25px;
+    height: 25px;
+
+}
+
+.formato-contactanos{
+    display: flex;
+    padding: 8px;
+    gap: 15px;
+    max-height: auto;
+
+}
+.recuadro-formulario{
+    display: flex;
+    width: 100%;
+    background-color: rgb(243, 237, 235);
+    padding: 25px;
+ }
+
+form{
+    width: 100%;
+}
+
+input{
+    
+    min-width: 100%;
+    max-width: 100%;
+    
+}
+.textarea {
+    min-height: 100px;
+    max-height: 500px;
+    min-width: 100%;
+    max-width: 100%;
+
+}
+
+.recuadro-iconos-redes{
+    display: flex;
+    justify-content: center;
+    background-color: #ff0eef;
+    gap: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconos-redes{
+    background-color: #ff0eef;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+.iconos-redes:hover{
+    opacity: 70%;
+}
+
+@media (max-width:992px){
+    .recuadro-contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .recuadro-datos{
+        justify-content: center;
+    }
+}
+
+/*FOOTER*/
+
+
+.recuadro-footer{
+    background: rgb(236, 159, 235);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: auto;
+    padding: 25px;
+}
+.letra-footer{
+    color: #222;
+}
