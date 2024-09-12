@@ -112,7 +112,18 @@ input{
     max-width: 100%;
 
 }
+.boton{
+    background-color:#ff0eef;
+    border: #5b0052;
+    padding: 8px;
+    border-radius: 50px;
+    margin: 5px;
+    color: #5b0052;
+}
 
+.boton:hover{
+    opacity: 70%;
+}
 .recuadro-iconos-redes{
     display: flex;
     justify-content: center;
